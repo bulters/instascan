@@ -22,7 +22,8 @@ class Camera {
       audio: false,
       video: {
         mandatory: {
-          sourceId: this.id,
+          facingMode: 'environment',
+          // sourceId: this.id,
           minWidth: 600,
           maxWidth: 800,
           minAspectRatio: 1.6
